@@ -58,7 +58,7 @@ sash <-
                aes(x,y), fill = "#8cd000") + 
   coord_fixed() +
   annotate(geom = "text", 
-           label = "  www.bit.ly/merk068", 
+           label = "  www.bit.ly/merk067", 
            x = .8, y = .8, 
            angle = 45,
            hjust = 0, vjust = 0,
@@ -118,7 +118,7 @@ figure>figcaption {
 
 
 ::: footer
-Folien online unter www.bit.ly/merk068
+Folien online unter www.bit.ly/merk067
 :::
 
 ::: notes
@@ -178,7 +178,7 @@ Folien online unter www.bit.ly/merk067
 
 ## Historie {{< fa timeline >}} {.smaller auto-animate="true"}
 <center>
-![Abbildung 1: Zentrale Publikationen](img/timeline_bloom.png){fig.align="center"}
+![Abbildung 1: Zentrale Publikationen](img/timeline_bloom2.png){fig.align="center"}
 </center>
 
 . . . 
@@ -209,7 +209,7 @@ Folien online unter www.bit.ly/merk067
 :::: {.columns}
 
 ::: {.column width="50%"}
-### Formative <br> Assessment
+### Formatives <br> Assessment
 * Ursprung in der pädagogisch-psychologischen Evaluationsforschung [@schuetze2018]
 * Lehr- lerntheoretische Überlegungen als Ausgangspunkt
 * Problematische Engführung des Diskurses auf sonderpädagogische Förderdiagnostik
@@ -239,7 +239,7 @@ Stand der Forschung {{< fa check-double >}}
 
 <br><br>
 <center>
-![Abbildung 2: Merkmale Formativen Assessments nach [@wiliam2008]](img/state_of_the_art_definition.png){fig.align="center"}
+![Abbildung 2: Merkmale Formativen Assessments nach William und Thompson [-@wiliam2008]](img/state_of_the_art_definition.png){fig.align="center"}
 </center>
 
 ::: notes
@@ -366,8 +366,8 @@ Beispiele eigener Forschung {{< fa chart-column >}}
 ## Studie 1: Design & Materials {{< ai open-materials >}} {.smaller}
 
 - Interaktive {{< fa brands r-project >}}-shiny app [@chang2016] mit ökologisch validen Daten [@jager2008]
-- Within-person randomisiert dargestellt in allen verwendeten Grafiktypen *(stacked, clustered and facetted bar graphs, jitter graphs mit means, beeswarm graphs)*
-![](img/Figure 1.png){ width="500"}   
+- Alle in VERA-Rückmeldungen verwendete Grafiktypen in verschiedenen Effektstärken (within-person randomisiert) präsentiert *(stacked, clustered and facetted bar graphs, jitter graphs mit means, beeswarm graphs)*
+[![](img/Figure 1.png){ width="500"}](img/Figure 1.png){preview-link="true"}
 
 . . . 
 
@@ -384,18 +384,18 @@ Alle Materialien offen lizensiert auf dem {{< ai osf >}} OSF unter https://osf.i
 
 ## Studie 1: Ergebnisse - Sensitivität {.smaller}
 <center>
-![Abbildung aus [@merk2023a]](img/Figure_6.svg){width=46%}
+![Abbildung aus Merk et al. [-@merk2023a]](img/Figure_6.svg){width=46%}
 </center>
 
 
 ## Studie 1: Ergebnisse - Effektivität
 <center>
-![Abbildung aus [@merk2023a]](img/Figure_3.png){width=75%}
+![Abbildung aus Merk et al. [-@merk2023a]](img/Figure_3.png){width=75%}
 </center>
 
 ## Studie 1: Ergebnisse - Akkuratheit 
 <center>
-![Abbildung aus [@merk2023a]](img/Figure_8.svg){width=90%}
+![Abbildung aus Merk et al. [-@merk2023a]](img/Figure_8.svg){width=90%}
 </center>
 
 ## Studie 1: Schlussfolgerung - Limitationen {.smaller .center}
@@ -450,7 +450,15 @@ mc_rezeption <-
 visNetwork(nodes, edges, width = "1028px", height = "407px",
            background = "#141414",
            main = list(text = "Custom title",
-                          style = "font-family:Roboto;color:#141414;font-size:1px;text-align:left;") ) %>%
+                          style = "font-family:Roboto; 
+                       color:#141414;
+                       font-size:1px;
+                       text-align:left;"),
+           footer = list(text = "Custom title",
+                          style = "font-family:Roboto; 
+                       color:#141414;
+                       font-size:1px;
+                       text-align:left;")) %>%
   visGroups(groupname = "Login", shape = "icon", 
             icon = list(code = "f04b", color = "#62DC3A", size = 35),
             font = list(color = "#62DC3A", size = 20, strokeWidth = 1, strokeColor = "#62DC3A")) %>%
@@ -470,7 +478,7 @@ visNetwork(nodes, edges, width = "1028px", height = "407px",
             icon = list(code = "f04d", color = "#62DC3A", size = 30),
             font = list(color = "#62DC3A", size = 20, strokeWidth = 1, strokeColor = "#62DC3A")) %>%
   visOptions(highlightNearest = list(enabled =TRUE, degree = 0)) %>% 
-  visLegend(width = .3, zoom = F) %>%
+  visLegend(width = .25, zoom = F, stepY = 80) %>%
   visLayout(randomSeed = 423) %>% # 364 bei filter .15  #25235 bei filter.0
   visPhysics(solver = "repulsion") %>% 
   visEdges(color = list(color = "#5B5B5B",highlight = "#8cd000"),
