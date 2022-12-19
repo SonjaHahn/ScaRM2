@@ -366,7 +366,7 @@ Beispiele eigener Forschung {{< fa chart-column >}}
 ## Studie 1: Design & Materials {{< ai open-materials >}} {.smaller}
 
 - Interaktive {{< fa brands r-project >}}-shiny app [@chang2016] mit ökologisch validen Daten [@jager2008]
-- Alle in VERA-Rückmeldungen verwendete Grafiktypen in verschiedenen Effektstärken (within-person randomisiert) präsentiert *(stacked, clustered and facetted bar graphs, jitter graphs mit means, beeswarm graphs)*
+- Alle in VERA-Rückmeldungen verwendete Grafiktypen in verschiedenen Effektstärken (within-person randomisiert) präsentiert *(stacked, clustered and facetted bar graphs, jitter graphs mit means, beeswarm graphs)*  
 [![](img/Figure 1.png){ width="500"}](img/Figure 1.png){preview-link="true"}
 
 . . . 
