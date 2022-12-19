@@ -744,7 +744,7 @@ $BF_{10} > 1000$
 
 ## [Herzlichen Dank für Ihre Aufmerksamkeit!]{.imp} {.center}
 
-## <!--Meme-->{background-image="img/meme.png" background-size="contain"}
+## <!--Meme-->{background-image="img/meme.jpg" background-size="contain"}
 
 ## <!--Hattie Model-->{background-image="img/feedbackmodel_hattietimperley.png" background-size="contain"}
 
