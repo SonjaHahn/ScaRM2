@@ -394,15 +394,16 @@ Alle Materialien offen lizensiert auf dem {{< ai osf >}} OSF unter https://osf.i
 ![Abbildung aus Merk et al. [-@merk2023a]](img/Figure_8.svg){width=90%}
 </center>
 
+## Studie 1: Ergebnisse - Effektivität
+<center>
+![Abbildung aus Merk et al. [-@merk2023a]](img/Figure_3.png){width=75%}
+</center>
+
 ## Studie 1: Ergebnisse - Sensitivität {.smaller}
 <center>
 ![Abbildung aus Merk et al. [-@merk2023a]](img/Figure_6.svg){width=46%}
 </center>
 
-## Studie 1: Ergebnisse - Effektivität
-<center>
-![Abbildung aus Merk et al. [-@merk2023a]](img/Figure_3.png){width=75%}
-</center>
 
 ## Studie 1: Schlussfolgerungen - Limitationen {.smaller .center}
 * Schlussfolgerungen:
