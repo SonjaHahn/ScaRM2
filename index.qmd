@@ -104,7 +104,7 @@ figure>figcaption {
 
 <center>
 
-[{{< fa check-double >}}]{.imp} Stand der Forschung\
+[{{< fa book >}}]{.imp} Stand der Forschung\
 <br>
 
 . . .
@@ -137,7 +137,7 @@ Folien online unter www.bit.ly/merk067
 * Michael Scriven
 * Lee Cronbach
 * Benjamin Bloom
-* Paul BLack Dylan William
+* Paul BLack Dylan Wiliam
 :::
 
 
@@ -154,7 +154,7 @@ Historie {{< fa timeline >}}
 . . . 
 
 <center>
-![Abbildung 1: Zentrale Publikationen](img/timeline_cronbach_scriven.png){fig.align="center"}
+![Zentrale Publikationen](img/timeline_cronbach_scriven.png){fig.align="center"}
 </center>
 
 . . . 
@@ -178,7 +178,7 @@ Folien online unter www.bit.ly/merk067
 
 ## Historie {{< fa timeline >}} {.smaller auto-animate="true"}
 <center>
-![Abbildung 1: Zentrale Publikationen](img/timeline_bloom2.png){fig.align="center"}
+![Zentrale Publikationen](img/timeline_bloom2.png){fig.align="center"}
 </center>
 
 . . . 
@@ -188,7 +188,7 @@ Folien online unter www.bit.ly/merk067
 
 ## Historie {{< fa timeline >}} {.smaller auto-animate="true"}
 <center>
-![Abbildung 1: Zentrale Publikationen](img/timeline_misanchuk.png){fig.align="center"}
+![Zentrale Publikationen](img/timeline_misanchuk.png){fig.align="center"}
 <script src="https://cdn.wordart.com/wordart.min.js" async defer></script>
 <div style="height:300px" data-wordart-src="https://cdn.wordart.com/json/7xj8vm7szv1e"></div>
 </center>
@@ -197,7 +197,7 @@ Folien online unter www.bit.ly/merk067
 
 ## Historie {{< fa timeline >}} {.smaller auto-animate="true"}
 <center>
-![Abbildung 1: Zentrale Publikationen](img/timeline_full.png){fig.align="center"}
+![Zentrale Publikationen](img/timeline_full.png){fig.align="center"}
 </center>
 
 . . . 
@@ -210,16 +210,20 @@ Folien online unter www.bit.ly/merk067
 
 ::: {.column width="50%"}
 ### Formatives <br> Assessment
+::: {.fragment fragment-index=2}
 * Ursprung in der pädagogisch-psychologischen Evaluationsforschung [@schuetze2018]
-* Lehr- lerntheoretische Überlegungen als Ausgangspunkt
+* Lehr-lerntheoretische Überlegungen als Ausgangspunkt
 * Problematische Engführung des Diskurses auf sonderpädagogische Förderdiagnostik
+:::
 :::
 
 ::: {.column width="50%"}
 ### Alternative Leistungsbewertung
+::: {.fragment fragment-index=1}
 * Ursprung in der Reformpädagogik [@bohl2004]
 * Bildungstheoretische Überlegungen als Ausgangspunkt
 * Problematische Engführung des Diskurses auf Ziffernnoten vs. Alternativen
+:::
 :::
 
 ::::
@@ -228,18 +232,18 @@ Folien online unter www.bit.ly/merk067
 ## <!-- Stand der Forschung --> {auto-animate="true"}
 
 ::: {style="margin-top: 262px; font-size: 2.2em; font-weight: bold; color:#8cd000; margin-left: 110px;"}
-Stand der Forschung {{< fa check-double >}}
+Stand der Forschung {{< fa book >}}
 :::
 
 ## <!-- Stand der Forschung --> {.smaller auto-animate="true"}
 
 ::: {style="margin-top: 0px;font-size: 2.3em; font-weight: bold; color:#ffffff; margin-left: 0px;"}
-Stand der Forschung {{< fa check-double >}}
+Stand der Forschung {{< fa book >}}
 :::
 
 <br><br>
 <center>
-![Abbildung 2: Merkmale Formativen Assessments nach William und Thompson [-@wiliam2008]](img/state_of_the_art_definition.png){fig.align="center"}
+![Merkmale formativen Assessments nach Wiliam und Thompson [-@wiliam2008]](img/state_of_the_art_definition.png){fig.align="center"}
 </center>
 
 ::: notes
@@ -249,26 +253,27 @@ Stand der Forschung {{< fa check-double >}}
 * das sich aus dem Kartesischen Produkt von Prozessschritten von Feedback mit den Akteuren ergibt.
 :::
 
-## Stand der Forschung {{< fa check-double >}} {.smaller}
+## Stand der Forschung {{< fa book >}} {.smaller}
 
 
-### Metaanalysen
+### Überblicksarbeiten
 
 :::: {.columns}
 
 ::: {.column width="50%"}
 * Ältere Metaanalysen [@fuchs1986; @black1998] kommen zu sehr positiven Ergebnissen $(.4<d<.7)$
-* Jüngere Metaanalysen sind immer noch positiv aber konservativer [vgl. @dunn2009; @kingston2011; @mclaughlin2017]
+* Jüngere Überblicksarbeiten sind immer noch positiv aber konservativer [vgl. @dunn2009; @kingston2011; @mclaughlin2017]
 * Als Moderatoren werden insbesondere das Fach und die Treatment-Art vorgeschlagen [@kingston2011] 
 :::
 
 ::: {.column width="50%"}
+::: {.fragment fragment-index=1}
 ```{r}
 #| echo: false
 #| fig-height: 5
 #| fig-format: "svg"
 #| fig-width: 5
-#| fig-cap: "[Abbildung 3: Visualisierung der Effektstärken]{.center}"
+#| fig-cap: "[Visualisierung der Effektstärken]{.center}"
 
 
 library(tidyverse)
@@ -299,8 +304,9 @@ ggplot(data, aes(Leistung, Gruppe)) +
         strip.text = element_text(color = "white"))
 ```
 :::
-
 :::
+
+::::
 
 ::: notes
 * d = .7 --> U3 76% oder Overlap = 73%
@@ -331,6 +337,7 @@ Digitale Transformation {{< fa tablet-screen-button >}}
     * [*Multimedialität*]{.imp} $\Rightarrow$ z.B. neue Aufgabenformen
     * [*Skalierbarkeit*]{.imp} $\Rightarrow$ z.B. algorithmische Aufgabengenerierung
     * [*Vernetzung*]{.imp} $\Rightarrow$ z.B. zentrale Aufgabendatenbank für ein Bundesland
+    * ...
 
 
 ## <!-- Beispiele eigener Forschung --> {auto-animate="true"}
@@ -349,7 +356,7 @@ Beispiele eigener Forschung {{< fa chart-column >}}
 
 ### (Explanative) Forschungsfrage
 
-> »we focused on how teachers can learn about the strengths and weaknesses of their class performance from statewide test data by investigating how sensitively, efficiently, and accurately they are able to judge the magnitude of mean differences« [@merk2023a]
+> We focused on how teachers can learn about the strengths and weaknesses of their class performance from statewide test data by investigating how sensitively, efficiently, and accurately they are able to judge the magnitude of mean differences. [@merk2023a]
 
 
 ::: r-stack
@@ -366,7 +373,7 @@ Beispiele eigener Forschung {{< fa chart-column >}}
 ## Studie 1: Design & Materials {{< ai open-materials >}} {.smaller}
 
 - Interaktive {{< fa brands r-project >}}-shiny app [@chang2016] mit ökologisch validen Daten [@jager2008]
-- Alle in VERA-Rückmeldungen verwendete Grafiktypen in verschiedenen Effektstärken (within-person randomisiert) präsentiert *(stacked, clustered and facetted bar graphs, jitter graphs mit means, beeswarm graphs)*  
+- Alle in VERA-Rückmeldungen verwendete Grafiktypen in verschiedenen Effektstärken (within-person randomisiert) präsentiert *(stacked, clustered und facetted bar graphs, jitter graphs mit means, beeswarm graphs)*  
 [![](img/Figure 1.png){ width="500"}](img/Figure 1.png){preview-link="true"}
 
 . . . 
@@ -398,8 +405,8 @@ Alle Materialien offen lizensiert auf dem {{< ai osf >}} OSF unter https://osf.i
 ![Abbildung aus Merk et al. [-@merk2023a]](img/Figure_8.svg){width=90%}
 </center>
 
-## Studie 1: Schlussfolgerung - Limitationen {.smaller .center}
-* Schlussfolgerung:
+## Studie 1: Schlussfolgerungen - Limitationen {.smaller .center}
+* Schlussfolgerungen:
     * Lehrerinnen und Lehrer nehmen Unterschiede akkurat aber insensitiv wahr
     * Lehrerinnen und Lehrer steigern ihre Effektivität schnell
     * Der Grafiktyp beeinflusst die Sensitivität und Effektivität substantiell
@@ -407,7 +414,7 @@ Alle Materialien offen lizensiert auf dem {{< ai osf >}} OSF unter https://osf.i
 . . . 
 
 * Limitationen:
-    * Convenience samples
+    * Convenience sample
     * Fokus auf interne Validität. Externe & ökologische Validität eher schwach
 
 
@@ -422,11 +429,11 @@ Alle Materialien offen lizensiert auf dem {{< ai osf >}} OSF unter https://osf.i
 ::: r-stack
 ![](img/mindstepslogo.png){.fragment width="900"}
 
-![](img/mindsteps_auswahl_testart.png){.fragment width="850"}
+![](img/mindsteps_auswahl_testart.png){.fragment width="650"}
 
-![](img/mindsteps_ergebnisse_klasse_querschnitt.png){.fragment width="780"}
+![](img/mindsteps_ergebnisse_klasse_querschnitt.png){.fragment width="580"}
 
-![](img/mindsteps_ergebnisse_einzelschuelerin.png){.fragment width="590"}
+![](img/mindsteps_ergebnisse_einzelschuelerin.png){.fragment width="390"}
 :::
 
 ::: footer
@@ -494,13 +501,14 @@ widgetframe::frameWidget(mc_rezeption, height = 550)
 ```
 
 ## Studie 2: Schlussfolgerung - Limitationen {.smaller .center}
-* Schlussfolgerungen
-   * Hypothese: Fehleranalyse stellt zentrale Heuristik des Sensemaking dar
+* Schlussfolgerung
+   * Hypothese: Fehleranalyse stellt zentrale Heuristik für Interpretation und Reflektion dar
 
 . . . 
 
 * Limitationen:
     * Zu kleine Stichprobe für Hidden Markov Chain Modelling
+    * Aufgrund des Designs keine Explanantion möglich
 
 
 ## <!-- Studie 3 --> {.center}
@@ -742,7 +750,7 @@ $BF_{10} > 1000$
 <br> [{{< fa timeline >}}]{.imp} Historie\
 <br>
 <center>
-[{{< fa check-double >}}]{.imp} Stand der Forschung\
+[{{< fa book >}}]{.imp} Stand der Forschung\
 <br>
 <center>[{{< fa tablet-screen-button >}}]{.imp} Digitale Transformation</center>
 <br>
