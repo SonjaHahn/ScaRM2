@@ -1,17 +1,18 @@
 ---
-title: "Formatives Assessment"
-author: "Samuel Merk"
-subtitle: "Historie - Stand der Forschung - Digitale Transformation"
+title: "[Sca]{.imp}ffolding [R]{.imp}esearch [M]{.imp}ethods"
+author: "Sonja Hahn"
+subtitle: "ODER: Wie digitale Werkzeuge das Erlernen empirischer Forschungsmethoden unterstützen – Exemplarische Betrachtungsweisen anhand des [Dagstuhl-Dreiecks]{.imp}."
 format: 
   revealjs:
     title-slide-attributes:
-      data-background-image: img/sash.svg
+      # data-background-image: img/sash.svg
       data-background-size: 30%
       data-background-position: 0 0
     slide-number: true
     controls: true
     logo: img/PHlogo.svg
     theme: [dark, css/custom.scss]
+    
     chalkboard:
       theme: whiteboard
       boardmarker-width: 3
@@ -25,8 +26,12 @@ editor_options:
   chunk_output_type: console
 ---
 
+## Visueller Einstieg
 
-## Formatives Assessment - Überblick {.center}
+HERLEITUNG SE
+
+
+## Gliederung
 
 ```{r hidden chunk which creates template stuff}
 #| echo: false
@@ -51,27 +56,27 @@ writeLines(c("/*-- scss:defaults --*/",
 close(fileConn)
 
 # create sash with URL
-sash <- 
-  ggplot() + 
-  geom_polygon(data = tibble(x = c(0,4,5.5,0),
-                             y = c(1,5,5,-.5)),
-               aes(x,y), fill = "#8cd000") + 
-  coord_fixed() +
-  annotate(geom = "text", 
-           label = "  www.bit.ly/merk067", 
-           x = .8, y = .8, 
-           angle = 45,
-           hjust = 0, vjust = 0,
-           size = 10,
-           color = "white") +
- theme_void() + 
- theme(plot.margin = margin(-2,0,0,-12, unit = "cm"))
-ggsave("img/sash.svg", sash)
+# sash <- 
+#   ggplot() + 
+#   geom_polygon(data = tibble(x = c(0,4,5.5,0),
+#                              y = c(1,5,5,-.5)),
+#                aes(x,y), fill = "#8cd000") + 
+#   coord_fixed() +
+#   annotate(geom = "text", 
+#            label = "  www.bit.ly/merk067", 
+#            x = .8, y = .8, 
+#            angle = 45,
+#            hjust = 0, vjust = 0,
+#            size = 10,
+#            color = "white") +
+#  theme_void() + 
+#  theme(plot.margin = margin(-2,0,0,-12, unit = "cm"))
+# ggsave("img/sash.svg", sash)
 ```
 
 ```{css}
 .imp {
-  color: #8cd000;
+  color: #a5da8a;
 }
 
 .em08{
@@ -89,9 +94,161 @@ figure>figcaption {
 
 .citation {
   font-size: .8em;
-  color: #8cd000;
+  color: #a5da8a;
 }
 ```
+
+* Begriffe
+
+* Forschungsprozess
+
+* Beispiele für digitale Werkzeuge
+
+* Zusammenfassung und Austausch 
+
+# Begriffe
+
+## Dagstuhl-Dreieck?
+
+![Drei Perspektiven auf digitale Werkzeuge [@Gesellschaft_Infomatik_2016]](dreieck.png){left=0 width=70%}
+
+
+
+:::notes
+* technologische Perspektive: Funktionsweise, Grundlagen, wiederkehrende Konzepte
+* gesellschaftlich-kulturelle Perspektive (Metaebene)
+* anwendungsbezogene Perspektive (Auswahl/Nutzung von Systemen)
+
+* Soziotechnische Systeme
+* Didaktik: Einstieg: Auf welcher Ebene
+:::
+
+## Scaffolding?
+
+
+![](reben.png){left=0 width=70%}
+
+Reben mit Gerüst {{< fa copyright >}} Elmar Meier
+
+:::notes
+* Konstruktivistische Perspektive
+* Ausgangspunkt Vygotski
+* Bruner 1976 Baugerüst
+* Ressourcen für Lernen zur Verfügung stellen (eigenständig geeignete Aufgabe lösen)
+* Idee: Fading
+* Heterogenität von Lehrmethoden
+* Beispiel: Dt: Webquests
+* Hier FM: Wie können digitale Werkzeuge unterstützen?
+:::
+
+## Forschungsmethoden?
+
+* Weg/Meta-Strategie: 
+  * Wissensbestände erweitern
+  * aber auch: hinterfragen und reflektieren
+* Forschender Habitus
+
+::: notes
+* Methode als Weg zu etwas hin - Meta-Ebene - Landkarte
+* Neues Wissen - unbekannte Situationen
+* Vorhandene Ergebnisse: schon wichtiger
+* Forschender Habitus: Offenheit
+:::
+
+## Forschungsmethoden!{.incremental}
+
+::: {.incremental}
+* Daten: Zunehmende Relevanz im Alltag
+* Verwendung digitaler Werkzeuge zur Informationsverarbeitung 
+  * Wahl geeigneter Software im Forschungsprozess
+  * [Verwendung vorhandener Werkzeuge zum  Erlernen von Forschungsmethoden]{.imp}
+  * Entwicklung von Werkzeugen, die einzelne Schritte fokussieren
+::: 
+
+
+::: notes
+* Daten: eher Quanti-Perspektive: Data science / Data literacy, 
+  Diagramme und andere Statistiken lesen und reflektieren (alle Fächer), 
+  Daten und Zufall (Mathe)
+* Digitale Tools: MMI: Werkzeug / Autoebene, typisch: Person auf Metaebene, Maschine auf Funktionsebene 
+* Verwendung in Forschungsprozess selbst: Verschiedene Werkzeuge erlauben unterschiedliche Automomiegrade
+* Verwendung in der Lehre "Informationsverarbeitung"; Beispiele kommen später
+* Lernen: Projektarbeit; evtl. auch Abnahme einzelner Schritte
+* einzelne Schritte: "split, where interaction should happen", den Rest macht der Computer
+:::
+
+# Forschungsprozess
+
+## Forschungsprozess: Ablauf {.smaller}
+
+<br>
+
+|  Recherche / Fragestellung    | Planung / Datenerhebung   | Daten- auswertung  | Verschriftlichung und Reflektion |
+|---------------|---------------|------------|-------------------|
+|  |  |  |  |
+
+: Vereinfachte Darstellung 
+
+
+## Forschungsprozess: Digitale Tools  {.smaller}
+
+<br>
+
+|  Recherche / Fragestellung    | Planung / Datenerhebung   | Daten- auswertung  | Verschriftlichung und Reflektion |
+|---------------|---------------|------------|-------------------|
+| Literatur- datenbanken Suchmaschinen | Fragebogen- software Video/Audio-Aufnahmen  | Software für quantitative und qualitative Datenanalyse | Textverarbeitung Literaturverwaltung |
+
+: Vereinfachte Darstellung mit Beispielen
+
+# Beispiele
+
+## Beispiel 1: Fragebogen-Software
+
+
+## Beispiel 2: Datenauswertung
+
+
+## Beispiel 3: Der Forschungsprozess {.small}
+
+<br>
+
+: Vereinfachte Darstellung mit Einordnung
+
+|  Recherche / Fragestellung    | Planung / Datenerhebung   | Daten- auswertung  | Verschriftlichung und Reflektion |
+|:---------------:|---------------:|:------------|:-------------------:|
+| [{{< fa images >}}]{.imp} | [{{< fa gears >}}]{.imp} | [{{< fa car-side >}}]{.imp} | [{{< fa image >}}]{.imp}  |
+
+
+::: notes
+* Subjektiv: 
+* Datenerhebung und Auswertung technischer
+* Methodenteil am stärksten technisch
+* Einführung und Ende:  Scientific Community
+* Das wird oft als Zyklus darsgestellt (QM etc)
+:::
+
+# Zusammenfassung und Austausch
+
+## Zusammenfassung und Austausch
+
+* Forschungsmethoden und darin verwendete Werkzeuge ermöglichen es, [Digitalität und Informationsverarbeitung zu erfahren und zu reflektieren]{.imp}
+
+* Ermöglichen verschiedene Werkzeuge durch Scaffolding authentische Lernprozesse?
+
+* Welche weiteren Möglichkeiten gibt es, Lernende durch informationsverarbeitende Technologien zu unterstützen?
+
+* Können diese Ideen auf andere Lehr-Lern-Prozesse übertragen werden?
+
+# [Vielen Dank für Ihre Aufmerksamkeit!]{.imp} {.center}
+
+
+
+
+
+
+## Formatives Assessment - Überblick {.center}
+
+
 
 . . .
 
@@ -758,7 +915,7 @@ $BF_{10} > 1000$
 
 
 
-## [Herzlichen Dank für Ihre Aufmerksamkeit!]{.imp} {.center}
+
 
 ## <!--Meme-->{background-image="img/meme.jpg" background-size="contain"}
 
