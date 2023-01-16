@@ -1,5 +1,5 @@
 ---
-title: "[Sca]{.imp}ffolding [R]{.imp}esearch [M]{.imp}ethods"
+title: "Scaffolding Research Methods"
 author: "Sonja Hahn"
 subtitle: "ODER: Wie digitale Werkzeuge das Erlernen empirischer Forschungsmethoden unterstützen – Exemplarische Betrachtungsweisen anhand des [Dagstuhl-Dreiecks]{.imp}."
 format: 
@@ -26,9 +26,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Visueller Einstieg
 
-HERLEITUNG SE
 
 
 ## Gliederung
@@ -106,6 +104,10 @@ figure>figcaption {
 
 * Zusammenfassung und Austausch 
 
+## Einstieg
+
+![Schätzer des Schätzers der Standardabweichung [@Steyer_2013]](SchaetzSD.PNG){left=0 width=70%}
+
 # Begriffe
 
 ## Dagstuhl-Dreieck?
@@ -123,12 +125,11 @@ figure>figcaption {
 * Didaktik: Einstieg: Auf welcher Ebene
 :::
 
-## Scaffolding?
+## Scaffolding? 
 
+@Wood_Bruner_Ross_1976, @Stangl
 
-![](reben.png){left=0 width=70%}
-
-Reben mit Gerüst {{< fa copyright >}} Elmar Meier
+![Reben mit Gerüst](reben.png){left=0 width=70%}
 
 :::notes
 * Konstruktivistische Perspektive
@@ -146,22 +147,22 @@ Reben mit Gerüst {{< fa copyright >}} Elmar Meier
 * Weg/Meta-Strategie: 
   * Wissensbestände erweitern
   * aber auch: hinterfragen und reflektieren
-* Forschender Habitus
+* Forschender Habitus [@Fichten_2010]
 
 ::: notes
 * Methode als Weg zu etwas hin - Meta-Ebene - Landkarte
 * Neues Wissen - unbekannte Situationen
 * Vorhandene Ergebnisse: schon wichtiger
-* Forschender Habitus: Offenheit
+* Forschender Habitus: Offenheit in Unterrichtssitu.
 :::
 
 ## Forschungsmethoden!{.incremental}
 
 ::: {.incremental}
-* Daten: Zunehmende Relevanz im Alltag
-* Verwendung digitaler Werkzeuge zur Informationsverarbeitung 
+* Daten: Zunehmende Relevanz im Alltag [@Schüller_2019]
+* Verwendung digitaler Werkzeuge zur [Informationsverarbeitung]{.imp} 
   * Wahl geeigneter Software im Forschungsprozess
-  * [Verwendung vorhandener Werkzeuge zum  Erlernen von Forschungsmethoden]{.imp}
+  * Verwendung vorhandener Werkzeuge zum  Erlernen von Forschungsmethoden
   * Entwicklung von Werkzeugen, die einzelne Schritte fokussieren
 ::: 
 
@@ -202,11 +203,68 @@ Reben mit Gerüst {{< fa copyright >}} Elmar Meier
 
 # Beispiele
 
-## Beispiel 1: Fragebogen-Software
+## Beispiel 1: Daten erheben
+
+![Fragebogen-Software](BeispielQN.PNG){left=0 width=80%}
 
 
-## Beispiel 2: Datenauswertung
 
+## Beispiel 2: Daten auswerten 
+
+![Foliensatz auf dem [ZOERR](http://hdl.handle.net/10900.3/OER_UWBKNJRO)](Beisipiel_Software.png){left=0 width=80%}
+
+
+
+
+:::notes
+* Ivo Partchev: Metapher
+:::
+
+## Reflektion der Beispiele 
+
+::: {.incremental}
+* Studierende kommen mit einfachen Werkzeugen gut zurecht
+* Werkzeuge bringen bereits Ressourcen mit
+* Zusätzliche Ressourcen oft eigenständig recherchiert
+<br> 
+* Unterstützung ist häufig notwendig bei
+  * Formulierung der Fragestellungen [{{< fa image >}}]{.imp}
+  * Auswahl von Werkzeugen und Verfahren [{{< fa van-shuttle >}}]{.imp} [{{< fa car-side >}}]{.imp} [{{< fa motorcycle >}}]{.imp}
+  * Techniknäheren Werkzeugen [{{< fa motorcycle >}}]{.imp}
+  * Anpassen von Verfahren [{{< fa gears >}}]{.imp}
+  * Reflektion von Grenzen der Forschung [{{< fa gears >}}]{.imp} [{{< fa image >}}]{.imp}
+:::
+  
+:::notes
+* Erfahrung in Beratung, Projektorientierter Lehre
+:::
+
+
+
+# Zusammenfassung und Austausch
+
+## Zusammenfassung und Austausch 
+
+::: {.incremental}
+* Forschungsmethoden/Werkzeuge: Digitalität und Informationsverarbeitung erfahren und reflektieren
+* Scaffolding durch Werkzeuge, zusätzliche Materialien, Lehre/Beratung {{< fa arrow-right >}} Abstimmungsprozesse
+
+* [Wie setze ich in verschiedenen Lehr-Kontexten Werkzeuge gezielt ein?]{.imp}
+* [Welche weiteren Möglichkeiten gibt es, Lernende durch informationsverarbeitende Technologien zu unterstützen?]{.imp}
+* [Können Methoden auf andere Lehr-Lern-Prozesse übertragen werden?]{.imp}
+:::
+
+
+::: notes
+* authentische Lernprozesse
+* Werkzeug ist nicht das, was erlernt werden muss, sondern der Prozess
+* Tipps
+* Informationsverarbeitende Technologien: Fokus auf Projektarbeit, aber evtl. Ziel auf anderer Ebene (parametrisierte Aufgaben)
+* FM hier als Aufhänger, Informationsverarbeitung aber auch woanders wichtig
+:::
+
+
+# [Vielen Dank für Ihre Aufmerksamkeit!]{.imp} {.center}
 
 ## Beispiel 3: Der Forschungsprozess {.small}
 
@@ -226,22 +284,6 @@ Reben mit Gerüst {{< fa copyright >}} Elmar Meier
 * Einführung und Ende:  Scientific Community
 * Das wird oft als Zyklus darsgestellt (QM etc)
 :::
-
-# Zusammenfassung und Austausch
-
-## Zusammenfassung und Austausch
-
-* Forschungsmethoden und darin verwendete Werkzeuge ermöglichen es, [Digitalität und Informationsverarbeitung zu erfahren und zu reflektieren]{.imp}
-
-* Ermöglichen verschiedene Werkzeuge durch Scaffolding authentische Lernprozesse?
-
-* Welche weiteren Möglichkeiten gibt es, Lernende durch informationsverarbeitende Technologien zu unterstützen?
-
-* Können diese Ideen auf andere Lehr-Lern-Prozesse übertragen werden?
-
-# [Vielen Dank für Ihre Aufmerksamkeit!]{.imp} {.center}
-
-
 
 
 
