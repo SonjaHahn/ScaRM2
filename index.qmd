@@ -4,6 +4,7 @@ author: "Sonja Hahn"
 subtitle: "ODER: Wie digitale Werkzeuge das Erlernen empirischer Forschungsmethoden unterstützen – Exemplarische Betrachtungsweisen anhand des [Dagstuhl-Dreiecks]{.imp}."
 format: 
   revealjs:
+    
     title-slide-attributes:
       # data-background-image: img/sash.svg
       data-background-size: 30%
@@ -12,7 +13,6 @@ format:
     controls: true
     logo: img/PHlogo.svg
     theme: [dark, css/custom.scss]
-    
     chalkboard:
       theme: whiteboard
       boardmarker-width: 3
@@ -103,6 +103,9 @@ figure>figcaption {
 * Beispiele für digitale Werkzeuge
 
 * Zusammenfassung und Austausch 
+
+<br><br><br>
+<https://sonjahahn.github.io/ScaRM2/>
 
 ## Einstieg
 
