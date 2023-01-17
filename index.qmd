@@ -106,13 +106,13 @@ figure>figcaption {
 
 ## Einstieg
 
-![Schätzer des Schätzers der Standardabweichung [@Steyer_2013]](SchaetzSD.PNG){left=0 width=70%}
+![Schätzer des Schätzers der Standardabweichung [@Steyer_2013]](img/SchaetzSD.PNG){left=0 width=70%}
 
 # Begriffe
 
 ## Dagstuhl-Dreieck?
 
-![Drei Perspektiven auf digitale Werkzeuge [@Gesellschaft_Infomatik_2016]](dreieck.png){left=0 width=70%}
+![Drei Perspektiven auf digitale Werkzeuge [@Gesellschaft_Infomatik_2016]](img/dreieck.png){left=0 width=70%}
 
 
 
@@ -130,7 +130,7 @@ figure>figcaption {
 
 @Wood_Bruner_Ross_1976, @Stangl
 
-![Reben mit Gerüst (by Elmar Meier)](reben.png){left=0 width=70%}
+![Reben mit Gerüst (by Elmar Meier)](img/reben.png){left=0 width=70%}
 
 :::notes
 * Beispiel: Ich fand es interessant --> Vorwissen als Struktur
@@ -160,7 +160,7 @@ figure>figcaption {
 * Forschender Habitus: Offenheit in Unterrichtssitu.
 :::
 
-## Forschungsmethoden!{.incremental}
+## Forschungsmethoden!
 
 ::: {.incremental}
 * Daten: Zunehmende Relevanz im Alltag [@Schüller_2019]
@@ -209,13 +209,13 @@ figure>figcaption {
 
 ## Beispiel 1: Daten erheben
 
-![Fragebogen-Software](BeispielQN.PNG){left=0 width=80%}
+![Fragebogen-Software](img/BeispielQN.PNG){left=0 width=80%}
 
 
 
 ## Beispiel 2: Daten auswerten 
 
-![Foliensatz auf dem [ZOERR](http://hdl.handle.net/10900.3/OER_UWBKNJRO)](Beisipiel_Software.png){left=0 width=80%}
+![Foliensatz auf dem [ZOERR](http://hdl.handle.net/10900.3/OER_UWBKNJRO)](img/Beisipiel_Software.png){left=0 width=80%}
 
 
 
